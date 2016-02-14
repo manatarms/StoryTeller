@@ -11,19 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
-
-        <EditText
-            android:id="@+id/string_field"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#ffffff" />
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/button_text"
             android:background="#ff5e00"
-            android:clickable="false" />
+             />
+        <EditText
+            android:id="@+id/string_field"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:foreground="#000000" />
+
 
     </android.support.design.widget.AppBarLayout>
 
